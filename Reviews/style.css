@@ -1,0 +1,101 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.container {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+img {
+    background-image: url('images/person1.webp');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 15rem;
+    height: 15rem;
+    border-radius: 50%;
+    margin-bottom: 1rem;
+    margin-left: 6.5rem;
+}
+
+h1 {
+    font-size: 3rem;
+    margin-bottom: .5rem;
+}
+
+.line-bottom {
+    width: 4.5rem;
+    height: 5px;
+    margin-bottom: 1.5rem;
+    background-color: steelblue;
+}
+
+
+.box {
+    width: 32rem;
+    margin: auto;
+    padding: 0 1.5rem;
+    font-size: 1.4rem;
+    line-height: 1.2;
+}
+
+.name {
+    margin-bottom: 1rem;
+    text-align: center;
+}
+
+.job-position {
+    margin-bottom: .8rem;
+    text-align: center;
+    font-size: 1.6rem;
+    font-weight: 600;
+}
+
+.about {
+    width: 32rem;
+    text-align: start;
+}
+
+
+.flex {
+    display: flex;
+    justify-content: space-between;
+}
+
+.buttons {
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+    cursor: pointer;
+}
+
+.prev-btn,
+.next-btn {
+    width: 4rem;
+    height: 2rem;
+    margin-left: 3rem;
+    font-size: 4rem;
+    color: steelblue;
+}
+
+.random-btn {
+    border: 3px solid steelblue;
+    border-radius: 10px;
+    text-align: center;
+    width: fit-content;
+    font-size: 1.5rem;
+    padding: .6rem 1rem;
+    margin-left: 4rem;
+}
